@@ -40,6 +40,4 @@ while len(states_num) < 48:
         remain_data.to_csv("remain_states.csv", header=False, index=False)
         break
 
-turtle.mainloop()
-
 screen.exitonclick()
